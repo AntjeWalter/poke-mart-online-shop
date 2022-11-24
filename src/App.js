@@ -22,7 +22,7 @@ function App() {
       <Header />
       <ul>
         {items.map((item) => (
-          <ShoppingItem name={item.name} key={item.name}>
+          <ShoppingItem name={item.name} key={item.name} url={item.url}>
             {item.name}
           </ShoppingItem>
         ))}
